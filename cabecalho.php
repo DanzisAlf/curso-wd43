@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width"> <!--mobile-->
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="stylesheet" href="css/sobre.css">
+
 	<link rel="stylesheet" href="css/mobile.css" media="(max-width:939px)">
 	<?php print $cabecalho_css; ?>
 

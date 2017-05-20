@@ -1,7 +1,11 @@
-	    <?php
+	   
+ 	    <?php
 	      $cabecalho_title = "Sobre";
 	      include("cabecalho.php");
 	    ?>
+<link rel="stylesheet" href="css/sobre.css">
+	
+
 	<h1>A Mirror Fashion</h1>
 
 	<p>
