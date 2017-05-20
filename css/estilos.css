@@ -203,3 +203,34 @@ display:flex;
 footer li{
 margin-left:10px;
 }*/
+
+.menu-opcoes a:hover{
+  color:#007dc6;
+}
+
+.menu-opcoes a:active{
+  color:#867dc6;
+}
+
+/*esconder o menu*/
+.departamentos li ul {
+  display:none;
+}
+
+/*passar mouse em cima*/
+.departamentos li:hover ul{
+  display:block;
+}
+
+.departamentos ul ul li {
+  background-color:#dcdcdc;
+}
+
+/*colocar cor no menu - hierarquia do ul*/
+.departamentos ul li:hover{
+background-color:#dcdcdc;
+}
+
+.departamentos li li a:before{
+  content:"- ";
+}
