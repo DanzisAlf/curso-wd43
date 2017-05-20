@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title> Mirror Fashion</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width"> <!--mobile-->
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="stylesheet" href="css/mobile.css" media="(max-width:939px)"> <!-- apos imports-->
-
-</head>
-<body>
-	<?php include("cabecalho.php");?>
+	    <?php
+	      $cabecalho_title = "MF - INICIO";
+	      include("cabecalho.php");
+	    ?>
 	<div class="container destaque">
 	<section class="busca">
 		<h2>Busca</h2>
