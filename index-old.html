@@ -6,30 +6,11 @@
 	<meta name="viewport" content="width=device-width"> <!--mobile-->
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="stylesheet" href="css/mobile.css"> <!-- apos imports-->
+	<link rel="stylesheet" href="css/mobile.css" media="(max-width:939px)"> <!-- apos imports-->
 
 </head>
 <body>
-	<header class="container">
-		<h1>
-			<img src="img/logo.png" alt="Logo da M.F">
-		</h1>
-		
-		<p class="sacola">
-		 	Nenhum item na sacola de compras
-		</p>
-
-		<nav class="menu-opcoes">
-			<ul>
-				<li><a href="#">Sua Conta</a></li>
-				<li><a href="#">Lista de Desejos</a></li>
-				<li><a href="#">Cartão Fidelidade</a></li>
-				<li><a href="sobre.html">Sobre</a></li>
-				<li><a href="#">Ajuda</a></li>
-			</ul>
-		</nav>
-	</header>
-	
+	<?php include("cabecalho.php");?>
 	<div class="container destaque">
 	<section class="busca">
 		<h2>Busca</h2>
@@ -177,20 +158,7 @@
 		</ol>
 	</section>
 	</div>
-	
-
-	<footer>
-		<div class="container">
-			<img src="img/logo-rodape.png" alt="Logo mirror fashion">
-
-			<ul class="social">
-				<li><a href="http://www.facebook.com">Facebook</a></li>
-				<li><a href="http://www.twitter.com">Twitter</a></li>
-				<li><a href="http://www.plus.google.com">GPlus</a></li>
-			</ul>
-		</div>
-	</footer>
-
+	<?php include("rodape.php");?>
 </body>
 </html>
 
