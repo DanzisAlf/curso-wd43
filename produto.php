@@ -18,12 +18,12 @@
 	            <img src="img/produtos/foto2-verde.png" alt="verde">
 	          </label>
 	          
-	          <input type="radio" name="cor" value="rosa" id="rosa" checked>
+	          <input type="radio" name="cor" value="rosa" id="rosa">
 	          <label for="rosa">
 	            <img src="img/produtos/foto2-rosa.png" alt="rosa">
 	          </label>
 	          
-	          <input type="radio" name="cor" value="azul" id="azul" checked>
+	          <input type="radio" name="cor" value="azul" id="azul">
 	          <label for="azul">
 	            <img src="img/produtos/foto2-azul.png" alt="azul">
 	          </label>
