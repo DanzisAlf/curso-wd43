@@ -118,3 +118,54 @@ label[for=azul]:after{
   border:6px solid rgba(0,0,0,0.1);
   transition:1s;
 }*/
+
+@media (min-width:630px){
+  .produto{
+  /* a foto se posiciona absolutamente em relacao ao elemento*/
+  position:relative;
+  
+  /*espaco para a foto ocupar a esquerda*/
+  padding-left:40%;
+  }
+  
+  .cores{
+  /*mudando de relative para static. assim a foto nao se posiciona em relacao a mim*/
+  position:static;
+  
+  /*reiniciando o padding-top, pois nao é mais necessario*/
+  padding:0;
+  }
+  
+  .cores legend{
+  /*voltar ao fluxo da pagina*/
+  position:static;
+  }
+  
+  .cores label img{
+  /* posicionando esquerda em relacao ao produto*/
+  position:absolute;
+  top:0;
+  left:0;
+  }
+  
+  .cores label:after{
+  /*posicionando bolinha flutuando ao lado da outra - redimensionabents*/
+  position:static;
+  float:left;
+  }
+  
+  .cores label img{
+  /*evita que imagem vaze*/
+  max-width:35%;
+  max-height:100%;
+  }
+  
+  .produto{
+  /*aumentar fonte*/
+  font-size:1.2em;
+  }
+  
+  .cores:label-after{
+  margin-right:10px;
+  }
+}

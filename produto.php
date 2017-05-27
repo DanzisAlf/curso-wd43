@@ -5,7 +5,7 @@
 	    ?>
 	    
 	    
-
+    <div class="container">
 	    <section class="produto">
 	      <h1>Fuzzy Cardigan</h1>
 	      <por> apenas R$129,90</p>
@@ -32,7 +32,7 @@
 	        <input type="submit" class="comprar" value="Comprar">
 	      </form>
 	    </section>
-
+    </div>
 	    <?php include("rodape.php");?>
 	  </body>
 </html>
