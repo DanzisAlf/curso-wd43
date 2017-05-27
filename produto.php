@@ -1,10 +1,10 @@
 	    <?php
 	      $cabecalho_title = "Produto da Mirror fashion";
+	      $cabecalho_css ='<link rel="stylesheet" href="css/produto.css">';
 	      include("cabecalho.php");
 	    ?>
-	    <?php
-	      $cabecalho_css = '<link rel="stylesheet" href="css/produto.css">';
-	    ?>
+	    
+	    
 
 	    <section class="produto">
 	      <h1>Fuzzy Cardigan</h1>

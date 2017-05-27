@@ -1,0 +1,73 @@
+/*desenha bolinha sem content*/
+.cores label:after{
+  content: '';
+  display:block;
+  border-radius:50%; /*faz o circulo*/
+  width:50px;
+  height:50px;
+}
+
+label[for=verde]:after{
+  background-color:#33cc66;
+}
+
+label[for=rosa]:after{
+  background-color:#FF6666;
+}
+
+label[for=azul]:after{
+  background-color:#6666FF;
+}
+
+/*estilizar a bolinha selecionada*/
+.cores input:checked +label:after{
+  border: 6px solid rgba(0,0,0,0.3);
+}
+
+/*deixa a bolinha no mesmo tamanho - a borda conta ate a border e nao content*/
+.cores label:after{
+  -moz-box-sizing: border-box;
+  box-sizing:border-box;
+}
+
+/*apagar o botao radio*/
+.cores input[type=radio]{
+  display:none;
+}
+
+/*mostrar a cor apenas selecionada - irmao proximo*/
+.cores input:not(:checked)+label img{
+  display:none;
+}
+
+.cores label:after{
+  position:absolute;
+}
+
+/*bolinhas posicionadas em relacao ao fieldset*/
+.cores{
+  position:relative;
+  padding-top:90px;
+}
+
+.cores label:after{
+  position:absolute;
+  top:30px;
+}
+
+label[for=verde]:after{
+  left:0;
+}
+
+label[for=rosa]:after{
+  left:60px;
+}
+
+label[for=azul]:after{
+  left:120px;
+}
+
+.cores label img{
+  display:block;
+  max-width:100%;
+}
