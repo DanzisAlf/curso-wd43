@@ -35,6 +35,7 @@
 	            <input type="range" min="36" max="46" value="42" name="tamanho" id="tamanho">
             </fieldset>
 	          <input type="submit" class="comprar" value="Comprar">
+	          <!-- adicionar valor ao form-->
 	          <input type="hidden" name="nome" value="Fuzzy Cardigan">
 	          <input type="hidden" name="preco" value="129,90">
 	        </form>
