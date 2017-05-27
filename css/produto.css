@@ -168,4 +168,13 @@ label[for=azul]:after{
   .cores:label-after{
   margin-right:10px;
   }
+  /* posicionar os fieldsets lado a lado na versao desktop*/
+  fieldset{
+    display:inline-block;
+    vertical-align: top;
+    
+    margin: 1em 0;
+    min-width:200px;
+    width:45%;
+  }
 }

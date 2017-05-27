@@ -28,7 +28,12 @@
 	            <img src="img/produtos/foto2-azul.png" alt="azul">
 	          </label>
 	        </fieldset>
-	        
+	          
+	        <fieldset class="tamanhos">
+	          <!-- name usado para backend, enquanto que o css utiliza o id-->
+	          <legend>Escolha o tamanho</legend>
+	          <input type="range" min="36" max="46" value="42" name="tamanho" id="tamanho">
+          </fieldset>
 	        <input type="submit" class="comprar" value="Comprar">
 	      </form>
 	    </section>
