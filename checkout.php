@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/checkout.css">
+<!--  
+  <script>
+    alert("oi")
+  </script>
+-->
 </head>
 
 <body>
@@ -129,6 +134,11 @@
         
     </div>    
   </div>
+<!--
+  <script>
+    alert("bye")
+  </script>
+-->
 </body>
 
 <!-- 10.16 colocar js pra aparecer o menu mobile-->
