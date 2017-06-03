@@ -59,7 +59,7 @@
           <div class="panel-body">
             <img src="img/produtos/foto1-<?= $_POST['cor'] ?>.png" class="img-thumbnail img-responsive"> <!-- bootstrap e escolher a cor com php -->
             <dl>
-              <dt>Cor</dt> <!-- definition term -->
+              <dt>Cor</dt> <!-- definition term usando os nomes do produto.php-->
               <dd><?= $_POST['cor'] ?></dd>
               
               <dt>Produto</dt>
@@ -69,8 +69,21 @@
               <dd><?= $_POST['tamanho'] ?></dt>
               
               <dt>Preço</dt>
-              <dd><?= $_POST['preco'] ?></dt>
+              <dd id="preco">R$ <?= $_POST['preco'] ?></dt>
             </dl>
+            
+            <!-- incluir o campo de preco -->
+            <div class="form-group">
+              <label for="qt">Quantidade</label>
+              <input id="qt" class="form-control" type="number" min="0" max="99" value="1">
+            </div>
+            <div class="form-group">
+              <label for="total">Total</label>
+              <output for="qt preco" id="total" class="form-control">
+                <?= $_POST['preco'] ?>
+              </output>
+            </div>
+          </div>   
           </div>
         </div>
       </div>
@@ -144,5 +157,6 @@
 <!-- 10.16 colocar js pra aparecer o menu mobile-->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/total.js"></script>
 </html>
 
