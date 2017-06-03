@@ -150,6 +150,7 @@
 	</section>
 	</div>
 	<?php include("rodape.php");?>
+	<script src="js/banner.js"></script>
 </body>
 </html>
 
