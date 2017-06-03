@@ -9,6 +9,34 @@
 </head>
 
 <body>
+<!-- opcional 10.16 --> 
+  <style> 
+    .navbar {
+      margin:0;
+    }
+  </style>
+  
+  <nav class="navbar navbar-default navbar-static-top"> 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-id">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="index.php">##Mirror Fashion##</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="navbar-collapse-id"> <!-- fazer menus colapsarem para mobile -->
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="sobre.php">Sobre</a></li>
+        <li><a href="#">Ajuda</a></li>
+        <li><a href="#">Perguntas Frequentes</a></li>
+        <li><a href="#">Entre em contato</a></li>
+      </ul>
+    </div>
+  </nav>
+<!---->
   <div class="jumbotron"> <!-- bootstrap -->
     <div class="container"> <!-- bootstrap -->
       <h1>Ótima Escolha</h1>
@@ -102,5 +130,9 @@
     </div>    
   </div>
 </body>
+
+<!-- 10.16 colocar js pra aparecer o menu mobile-->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
 </html>
 
