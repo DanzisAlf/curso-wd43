@@ -5,6 +5,7 @@
   <title>Checkout MF</title>
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/checkout.css">
 </head>
 
 <body>
@@ -43,7 +44,7 @@
         
         <div class="form-group"> <!-- bootstrap. formatar grupo-->
           <label for="nome">Nome completo</label> <!-- o campo nome completo recebe FOR nome. todo label é seguido de um input-->
-          <input type="text" class="form-control" id="nome" name="nome" autofocus>   
+          <input type="text" class="form-control" id="nome" name="nome" autofocus required>   
         </div>  
       
         <div class="form-group"> <!-- bootstrap. formatar grupo-->
@@ -51,7 +52,7 @@
           
           <div class="input-group">
             <span class="input-group-addon">@</span>
-            <input type="email" class="form-control" id="email" name="email" placeholder="me@myself.com">
+            <input type="email" class="form-control" id="email" name="email" placeholder="me@myself.com" required>
           </div>
         </div>
 
