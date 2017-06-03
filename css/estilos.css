@@ -306,3 +306,16 @@ background-color:#dcdcdc;
 .painel li {
   transition: transform 0.5s ease-in;
 }
+
+/*incluir estilo no botao*/
+.panel button{
+  display:none;
+}
+/*pegar a partir do 7 elemento escondido*/
+.painel-compacto li:nth-child(n+7){
+  display:none;
+}
+
+.painel-compacto button {
+  display:block;
+}

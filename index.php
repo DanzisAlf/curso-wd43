@@ -1,3 +1,4 @@
+	<script src="js/jquery.js"></script>
 	    <?php
 	      $cabecalho_title = "MF - INICIO";
 	      include("cabecalho.php");
@@ -37,7 +38,7 @@
 	<img src="img/destaque-home.png" alt="Promoção BCN">
 	
 	
-	<section class="painel novidades">
+	<section class="painel novidades painel-compacto">
 		<h2>Novidades</h2>
 		<ol>
 			<li>
@@ -88,10 +89,60 @@
 					</figure>
 				</a>
 			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura1.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura2.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura3.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura4.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura5.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura6.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
 		</ol>
+		<!-- incluir botao e mais produtos - 12.7-->
+		<button type="button">Mostra mais produtos</button>
 	</section>
 <!--
-	--><section class="mais-vendidos painel">
+	--><section class="mais-vendidos painel painel-compacto">
 		<h2>Mais Vendidos</h2>
 		<ol>
 			<li>
@@ -146,11 +197,62 @@
 					</figure>
 				</a>
 			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura1.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura2.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura3.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura4.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura5.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="produto.php">
+					<figure>
+						<img src="img/produtos/miniatura6.png" alt="Produtos">
+						<figcaption>Fuzz Cardigan por R$129,90</figcaption> 
+					</figure>
+				</a>
+			</li>
 		</ol>
+		<!-- incluir botao e mais produtos - 12.7-->
+		<button type="button">Mostra mais produtos</button>
 	</section>
 	</div>
 	<?php include("rodape.php");?>
 	<script src="js/banner.js"></script>
+	<script src="js/home.js"></script>
 </body>
 </html>
 
